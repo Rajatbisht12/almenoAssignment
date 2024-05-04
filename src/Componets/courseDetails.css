@@ -1,0 +1,47 @@
+/* courseDetailsStyles.css */
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Paragraph styles */
+  p {
+    margin-bottom: 12px;
+    color: #666;
+  }
+  
+  /* Student list styles */
+  .student-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .student-list li {
+    margin-bottom: 8px;
+    color: #666;
+  }
+  
+  /* Syllabus styles */
+  .syllabus ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+  }
+  
+  .syllabus li {
+    margin-bottom: 8px;
+    color: #666;
+  }
+  

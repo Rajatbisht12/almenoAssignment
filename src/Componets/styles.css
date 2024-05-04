@@ -1,0 +1,46 @@
+/* styles.css */
+
+/* Container styles */
+.course-listing-container {
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    margin: auto; /* Center vertically */
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  h1 {
+    position: sticky; /* Sticky positioning */
+    top: 0; /* Stick to the top */
+    background-color: #fff; /* Background color */
+    padding: 10px 0; /* Padding */
+    width: 100%; /* Full width */
+    z-index: 1; /* Ensure title is above content */
+    margin-left: 80%;
+  }
+  /* List styles */
+  .course-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  /* Course item styles */
+  .course-item {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Link styles */
+  .course-link {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .course-link:hover {
+    text-decoration: underline;
+  }
+  
